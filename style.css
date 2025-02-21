@@ -1,0 +1,136 @@
+#body{
+    background-color: #0066ffa4;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 43px;
+    padding-top: 35px;
+    color: white;
+}
+form{
+    border: 3px solid #1070ff3a;
+    width: 1250px;
+    border-radius: 7px;
+    background-color: #a7c2eb00;
+    height: auto;
+}
+.containergeral{
+    margin: 30px;
+    padding: 30px;
+    border-radius: 8px;
+}
+h1{
+    text-align: center;
+    color: #333;
+}
+h3{
+    text-align: center;
+    color: #555;
+    font-weight: bold;
+}
+.containerform{
+    border: 1px solid rgba(255, 255, 255, 0.801);
+    padding: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 7px;
+    background-color: white;
+    margin-top: 20px;
+}
+.container1, .container2, .container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8px;
+    padding-bottom: 10px;
+}
+input[type="text"]{
+    width: 480px;
+    height: 25px;
+    border-radius: 5px;
+}
+#cidade{
+    width: 250px;
+}
+#cep{
+    width: 180px;
+}
+input[type="number"]{
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+#estado{
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.863);
+    border: 2px solid #1070ff3a;
+}
+#botao{
+    width: 1045px;
+    margin: auto;
+    height: 27px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #689dec7e;
+    border-color: #b865c9;
+    color: white;
+}
+#botao:hover{
+    background-color: #b493e2;
+    border-color: #b493e2;
+}
+input[type="text"],
+input[type="number"],
+input[type="radio"]{
+    background-color: rgba(255, 255, 255, 0.863);
+    border-color: #1070ff3a;
+}
+
+.validacao{
+    border: 1px solid red;
+}
+.mensagemErro{
+    display: none;
+    font-size: smaller;
+    color: red;
+}
+.containertable{
+    border: 1px solid #1070ff3d;
+    background-color: #1070ff18;
+    width: 1250px;
+    border-radius: 5px;
+    height: auto;
+    padding: 20px;
+    margin-top: 30px;
+}
+#table{
+    width: 870px;
+    border-radius: 7px;
+    margin: auto;
+    text-align: center;
+    margin: 20px;
+    border-color: rgb(126, 109, 143);
+}
+.editar, .excluir{
+    border: none;
+}
+
+[for="dt-search-0"]{
+    display: none;
+}
+#dt-search-0{
+    width: 680px;
+    height: 50px;
+    text-transform: uppercase;
+    background-color: #1070ff3d;
+    border-color: #d374ff;
+}
+#dt-length-0{
+    width: 80px;
+    background-color: #1070ff3d;
+    border-color: white;
+    border-radius: 10px;
+}
+#id{
+    text-align: center;
+}
