@@ -1,0 +1,123 @@
+#body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 43px;
+    padding-top: 35px;
+    color: white;
+}
+form{
+    width: 1250px;
+    border-radius: 7px;
+    background-image: url("health-and-medical-icons-vzjebghj1d5vbdrs.webp");
+    background-repeat: no-repeat;
+    background-size: 1300px 420px;
+    height: auto;
+}
+.containergeral{
+    margin: 30px;
+    padding: 30px;
+    border-radius: 8px;
+}
+h1, h3{
+    text-align: center;
+    font-weight: bold;
+}
+.containerform{
+    border: 1px solid rgba(255, 255, 255, 0.801);
+    padding: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 7px;
+    background-color: white;
+    margin-top: 20px;
+    opacity: 0.9;
+}
+.container1, .container2, .container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8px;
+    padding-bottom: 10px;
+}
+input[type="text"]{
+    width: 480px;
+    height: 25px;
+    border-radius: 5px;
+}
+input[type="number"]{
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+#estado{
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.863);
+    border: 2px solid rgba(3,30,60,255);
+}
+#botao{
+    width: 1045px;
+    margin: auto;
+    height: 27px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #08578f;
+    border-color: rgba(3,30,60,255);
+    color: white;
+}
+#botao:hover{
+    background-color: rgb(31,142,194);
+    border-color: rgb(31,142,194);
+}
+input[type="text"],
+input[type="number"]{
+    background-color: rgba(255, 255, 255, 0.863);
+    border-color: rgba(3,30,60,255);
+}
+.validacao{
+    border: 1px solid red;
+}
+.mensagemErro{
+    display: none;
+    font-size: smaller;
+    color: red;
+}
+.containertable{
+    border: 1px solid #1070ff3d;
+    background-color: #08578f;
+    width: 1250px;
+    border-radius: 5px;
+    height: auto;
+    padding: 20px;
+    margin-top: 30px;
+}
+#table{
+    width: 870px;
+    border-radius: 7px;
+    margin: auto;
+    margin: 20px;
+    border-color: #08578f;
+}
+[for="dt-search-0"]{
+    display: none;
+}
+[for="dt-length-0"]{
+    margin-left: 30px;
+}
+#dt-search-0{
+    width: 680px;
+    height: 40px;
+    text-transform: uppercase;
+    margin-right: 24px;
+}
+#dt-length-0{
+    width: 80px;
+    border-radius: 10px;
+}
+.dt-info{
+    margin-left: 28px;
+}
+::placeholder{
+    color: black;
+}
